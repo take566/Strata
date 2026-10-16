@@ -1,0 +1,26 @@
+{
+  "wall_ms": 12585,
+  "model": "qwen3.8-flash-next-coder-iq1_m",
+  "usage": {
+    "prompt_tokens": 43,
+    "completion_tokens": 148,
+    "total_tokens": 191,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 43,
+    "prompt_ms": 2154.6,
+    "prompt_per_token_ms": 50.107,
+    "prompt_per_second": 20.0,
+    "predicted_n": 148,
+    "predicted_ms": 10415.9,
+    "predicted_per_token_ms": 70.378,
+    "predicted_per_second": 14.2,
+    "draft_n": 118,
+    "draft_n_accepted": 107
+  },
+  "content_preview": "```python\ndef binary_search(arr: list[int], target: int) -> int:\n    \"\"\"Binary search for target in sorted list arr. Returns index or -1 if not found.\"\"\"\n    lo, hi = 0, len(arr) - 1\n    while lo <= h"
+}
